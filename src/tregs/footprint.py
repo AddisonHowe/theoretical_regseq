@@ -426,7 +426,7 @@ def plot_footprint(promoter, df, region_params,
     plt.tight_layout()
     if outfile is not None:
         plt.savefig(outfile, dpi=300, bbox_inches='tight')
-    plt.show()
+    # plt.show()
 
     if return_fp:
         return footprint
@@ -471,4 +471,5 @@ def plot_exshift(promoter, df,
 
     if outfile is not None:
         plt.savefig(outfile, bbox_inches='tight')
-        plt.show()
+        # plt.show()
+        

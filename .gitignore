@@ -1,3 +1,5 @@
+env
+
 #This file exists to stop the addition of forbidden files into the github
 #respository #Such forbidden files are images, movies, and various dotfiles
 #(such as .DS_store on mac). This .gitignore file will be common to all
